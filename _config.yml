@@ -22,8 +22,8 @@ plugins:
 - jekyll-multiple-languages-plugin
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
+url: 'https://juantoca.github.io'
+baseurl: 'juantoca.github.io'
 title: 'Juan Toca'
 description: 'This is my new website'
 permalink: pretty
