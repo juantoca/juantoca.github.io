@@ -23,7 +23,7 @@ plugins:
 
 # Site settings
 url: 'https://juantoca.github.io'
-baseurl: 'juantoca.github.io'
+baseurl: ''
 title: 'Juan Toca'
 description: 'This is my new website'
 permalink: pretty
