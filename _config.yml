@@ -1,5 +1,5 @@
 # Set theme
-remote_theme: daviddarnes/alembic@main
+theme: alembic-jekyll-theme
 
 # File excludes
 exclude:
@@ -18,7 +18,6 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
-- jekyll-remote-theme
 - jekyll-multiple-languages-plugin
 
 # Site settings
@@ -31,7 +30,7 @@ logo: "/assets/profile_pic.png"
 
 # Pagination
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: /blog/page:num/
 
 # Header nav
 navigation_header:
@@ -49,7 +48,6 @@ collections:
   posts:
     title: Posts
     output: true
-    description: "My thoughts and ideas"
 
 # Collection settings
 defaults:
