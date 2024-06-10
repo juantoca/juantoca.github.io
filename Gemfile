@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.1"
+gem "json"
 gem "jekyll-sitemap"
 gem "jekyll-mentions"
 gem "jekyll-paginate"
@@ -13,3 +14,4 @@ gem "jemoji"
 gem "jekyll-remote-theme"
 gem 'jekyll-multiple-languages-plugin'
 gem "alembic-jekyll-theme"
+gem "jekyll-spaceship"

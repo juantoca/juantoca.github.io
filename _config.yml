@@ -19,6 +19,7 @@ plugins:
 - jekyll-include-cache
 - jemoji
 - jekyll-multiple-languages-plugin
+- jekyll-spaceship
 
 # Site settings
 url: 'https://juantoca.github.io'
@@ -65,3 +66,7 @@ defaults:
       layout: page # Set the default layout for pages
 
 languages: ["en", "es"]
+
+jekyll-spaceship:
+  mermaid-processor:
+    src: https://mermaid.ink/img/
