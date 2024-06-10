@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type='text/javascript' src='scripts/mustache.js'></script>
+        <script type='text/javascript' src='scripts/jquery.min.js'></script>
+        <script type='text/javascript' src='scripts/jquery-ui.min.js'></script>
+        <script type='text/javascript' src='scripts/har-viewer.js'></script>
+        <link rel='stylesheet' href='css/jquery-ui.css'/>
+        <link rel='stylesheet' href='css/har-viewer.css'/>
+        <script src="catastro-peticiones.har"></script>
+        <script type='text/javascript'>
+            $(document).ready(function () {
+                $('#har-view').HarView();
+                var har = $('#har-view').data('HarView');
+                har.render(jason);
+            })
+        </script>
+    
+    </head>
+    <body>
+        <div id='har-view'></div>
+    </body>
+</html>
